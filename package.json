@@ -1,0 +1,18 @@
+{
+  "name": "my-chai-ui",
+  "version": "1.1.1",
+  "description": "Lightweight utility-first CSS engine",
+  "main": "index.js",
+  "type": "module",
+  "keywords": [
+    "css",
+    "utility",
+    "chai",
+    "ui"
+  ],
+  "author": "Renuka",
+  "license": "MIT",
+  "dependencies": {
+    "my-chai-ui": "^1.0.0"
+  }
+}

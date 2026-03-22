@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chai UI - Complete Documentation</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="./index.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        .gradient-text { 
+            background: linear-gradient(135deg, #f97316 0%, #fb923c 50%, #f59e0b 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+    </style>
+</head>
+<body class="bg-gradient-to-br from-slate-900 via-slate-800 to-orange-950 min-h-screen text-slate-100">
+
+    <!-- Navigation -->
+    <nav class="fixed top-0 left-0 right-0 z-50 bg-slate-950/90 backdrop-blur-md border-b border-slate-800/50">
+        <div class="max-w-7xl mx-auto px-8 py-6">
+            <div class="flex items-center justify-between">
+                <div class="flex items-center space-x-4">
+                    <div class="w-12 h-12 bg-gradient-to-r from-orange-500 to-orange-600 rounded-2xl"></div>
+                    <h1 class="text-3xl font-black gradient-text">Chai UI</h1>
+                </div>
+                <div class="flex items-center space-x-6">
+                    <a href="#classes" class="text-slate-400 hover:text-orange-400 font-medium">Classes</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <section class="pt-32 pb-40">
+        <div class="max-w-7xl mx-auto px-8">
+            <div class="text-center mb-32">
+                <h1 class="text-7xl lg:text-9xl font-black text-slate-100 mb-8 leading-tight">
+                    Chai UI<br>
+                    <span class="gradient-text block">75+ Classes</span>
+                </h1>
+                <p class="text-2xl text-slate-400 max-w-3xl mx-auto mb-12">
+                    Tailwind-style utilities that work instantly. Add classes → call 
+                    <code class="bg-slate-900/50 px-4 py-2 rounded-xl border border-orange-500/50 text-orange-400 font-mono">applyChaiStyles()</code>
+                </p>
+            </div>
+
+            <!-- COMPLETE CLASS LIST WITH DESCRIPTIONS -->
+            <section id="classes" class="mb-32">
+                <h2 class="text-5xl font-black text-slate-100 mb-16 text-center">All Supported Classes</h2>
+                
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
+                    
+                    <!-- SPACING -->
+                    <div class="bg-slate-900/50 backdrop-blur-sm p-8 rounded-3xl border border-slate-700">
+                        <h3 class="text-2xl font-bold gradient-text mb-6">Spacing (40+)</h3>
+                        <div class="space-y-2 text-sm font-mono text-orange-400">
+                            <code>chai-p-4</code> <span class="text-slate-400 text-xs">(padding: 1rem)</span><br>
+                            <code>chai-p-8</code> <span class="text-slate-400 text-xs">(padding: 2rem)</span><br>
+                            <code>chai-p-12/16/20/24/32/40/48</code> <span class="text-slate-400 text-xs">(larger paddings)</span><br>
+                            <code>chai-px-6 chai-py-12</code> <span class="text-slate-400 text-xs">(x/y axis padding)</span><br>
+                            <code>chai-m-8 chai-mx-auto</code> <span class="text-slate-400 text-xs">(margin utilities)</span><br>
+                            <code>chai-gap-4/8/12/16/24</code> <span class="text-slate-400 text-xs">(gap spacing)</span>
+                        </div>
+                    </div>
+
+                    <!-- COLORS -->
+                    <div class="bg-slate-900/50 backdrop-blur-sm p-8 rounded-3xl border border-slate-700">
+                        <h3 class="text-2xl font-bold gradient-text mb-6">Colors</h3>
+                        <div class="space-y-2 text-sm font-mono text-orange-400">
+                            <code>chai-bg-slate-900</code> <span class="text-slate-400 text-xs">(dark backgrounds)</span><br>
+                            <code>chai-bg-orange-500/400/600</code> <span class="text-slate-400 text-xs">(orange variants)</span><br>
+                            <code>chai-text-slate-100/200/400</code> <span class="text-slate-400 text-xs">(text colors)</span><br>
+                            <code>chai-text-orange-400</code> <span class="text-slate-400 text-xs">(accent text)</span><br>
+                            <code>chai-text-emerald-400/red-400</code> <span class="text-slate-400 text-xs">(status colors)</span>
+                        </div>
+                    </div>
+
+                    <!-- LAYOUT -->
+                    <div class="bg-slate-900/50 backdrop-blur-sm p-8 rounded-3xl border border-slate-700">
+                        <h3 class="text-2xl font-bold gradient-text mb-6">Layout</h3>
+                        <div class="space-y-2 text-sm font-mono text-orange-400">
+                            <code>chai-flex</code> <span class="text-slate-400 text-xs">(flexbox)</span><br>
+                            <code>chai-grid</code> <span class="text-slate-400 text-xs">(css grid)</span><br>
+                            <code>chai-grid-cols-3</code> <span class="text-slate-400 text-xs">(3 columns)</span><br>
+                            <code>chai-col-span-2</code> <span class="text-slate-400 text-xs">(grid column span)</span><br>
+                            <code>chai-items-center</code> <span class="text-slate-400 text-xs">(align items)</span><br>
+                            <code>chai-justify-center/between</code> <span class="text-slate-400 text-xs">(justify content)</span>
+                        </div>
+                    </div>
+
+                    <!-- TYPOGRAPHY -->
+                    <div class="bg-slate-900/50 backdrop-blur-sm p-8 rounded-3xl border border-slate-700">
+                        <h3 class="text-2xl font-bold gradient-text mb-6">Typography</h3>
+                        <div class="space-y-2 text-sm font-mono text-orange-400">
+                            <code>chai-fs-24</code> <span class="text-slate-400 text-xs">(font-size: 1.5rem)</span><br>
+                            <code>chai-fs-48/72/96</code> <span class="text-slate-400 text-xs">(larger headings)</span><br>
+                            <code>chai-fw-bold</code> <span class="text-slate-400 text-xs">(font-weight: 700)</span><br>
+                            <code>chai-fw-black</code> <span class="text-slate-400 text-xs">(font-weight: 900)</span><br>
+                            <code>chai-text-center</code> <span class="text-slate-400 text-xs">(text alignment)</span>
+                        </div>
+                    </div>
+
+                    <!-- COMPONENTS -->
+                    <div class="bg-slate-900/50 backdrop-blur-sm p-8 rounded-3xl border border-slate-700">
+                        <h3 class="text-2xl font-bold gradient-text mb-6">Components</h3>
+                        <div class="space-y-2 text-sm font-mono text-orange-400">
+                            <code>chai-card</code> <span class="text-slate-400 text-xs">(card container)</span><br>
+                            <code>chai-card-glass</code> <span class="text-slate-400 text-xs">(glassmorphism card)</span><br>
+                            <code>chai-btn / chai-btn-secondary</code> <span class="text-slate-400 text-xs">(buttons)</span><br>
+                            <code>chai-avatar / chai-avatar-lg</code> <span class="text-slate-400 text-xs">(profile images)</span><br>
+                            <code>chai-progress</code> <span class="text-slate-400 text-xs">(progress bars)</span><br>
+                            <code>chai-table</code> <span class="text-slate-400 text-xs">(data tables)</span>
+                        </div>
+                    </div>
+
+                    <!-- EFFECTS -->
+                    <div class="bg-slate-900/50 backdrop-blur-sm p-8 rounded-3xl border border-slate-700">
+                        <h3 class="text-2xl font-bold gradient-text mb-6">Effects</h3>
+                        <div class="space-y-2 text-sm font-mono text-orange-400">
+                            <code>chai-hover-scale</code> <span class="text-slate-400 text-xs">(scale on hover)</span><br>
+                            <code>chai-hover-lift</code> <span class="text-slate-400 text-xs">(lift on hover)</span><br>
+                            <code>chai-rounded-3xl</code> <span class="text-slate-400 text-xs">(border-radius)</span><br>
+                            <code>chai-shadow-2xl/4xl</code> <span class="text-slate-400 text-xs">(shadows)</span><br>
+                            <code>chai-border-orange-500</code> <span class="text-slate-400 text-xs">(neon borders)</span>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="py-32 px-8 text-center">
+        <div class="max-w-4xl mx-auto space-y-12">
+            <h2 class="text-6xl lg:text-7xl font-black text-slate-100 mb-8">
+                Ready to build<br>
+                <span class="gradient-text">amazing UIs?</span>
+            </h2>
+            <div class="bg-slate-900/50 backdrop-blur-sm p-12 rounded-4xl border border-slate-700 max-w-2xl mx-auto">
+                <pre class="text-2xl font-mono text-orange-400 text-center leading-relaxed">npm i my-chai-ui
+import { applyChaiStyles }
+applyChaiStyles()</pre>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-20 px-8 bg-slate-950/90 backdrop-blur-md border-t border-slate-800/50 text-center">
+        <div class="max-w-4xl mx-auto space-y-6">
+            <div class="w-20 h-20 bg-gradient-to-r from-orange-500 to-orange-600 rounded-3xl mx-auto mb-8 shadow-2xl"></div>
+            <h3 class="text-4xl font-black gradient-text">Renuka Khirwadkar</h3>
+            <p class="text-xl text-slate-400">Chai UI Creator • SAP Developer • Bengaluru</p>
+        </div>
+    </footer>
+
+    <script>
+        // Auto-apply Chai styles
+        document.addEventListener('DOMContentLoaded', () => {
+            setTimeout(() => {
+                if (typeof applyChaiStyles === 'function') {
+                    applyChaiStyles();
+                }
+            }, 100);
+        });
+    </script>
+</body>
+</html>
