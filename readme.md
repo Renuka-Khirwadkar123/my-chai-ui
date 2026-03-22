@@ -112,21 +112,6 @@ Open `index.html` → **Live class tester!**
 ✅ **VS Code IntelliSense**  
 ✅ **2.1kb gzipped**  
 
-## 👩‍💻 **Works Everywhere**
-```jsx
-// React/Vue/Angular/Svelte/Vanilla
-useEffect(() => applyChaiStyles(), [])
-```
 
-## 🙋‍♀️ **Made by**
-**Renuka Khirwadkar**  
-SAP Developer • Bengaluru  
-[GitHub](https://github.com/) • [LinkedIn](https://linkedin.com/)
-
----
-
-```
-⭐ Star repo -  npm i my-chai-ui -  Ship faster! 🚀
-```
 
 
