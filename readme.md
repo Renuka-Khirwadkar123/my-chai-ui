@@ -112,6 +112,6 @@ Open `index.html` → **Live class tester!**
 ✅ **VS Code IntelliSense**  
 ✅ **2.1kb gzipped**  
 
-
+Deplyment link- https://my-chai-ui.netlify.app/
 
 
